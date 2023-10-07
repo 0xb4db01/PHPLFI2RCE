@@ -9,7 +9,7 @@ I just made it usable via cli, just because who knows one day I might need it...
 ```
 args:
         -u <url>
-		-p <param>
+        -p <param>
         -c <command to issue>
 optional:
         -f <file to use (default php://temp)>
