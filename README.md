@@ -29,7 +29,7 @@ Add proxies if you need
 
 
 ```
-python3 phplfi2rce.py -u http://127.0.0.1/index.php -p file -c 'ls -lah /opt' -P http,http://localhost:8080
+python3 phplfi2rce.py -u http://127.0.0.1/index.php -p file -c id -P http,http://localhost:8080
 
 ```
 
