@@ -2,9 +2,16 @@ import requests
 from getopt import getopt
 from sys import argv
 
+##
+# Author     : 0xb4db01
+# Date       : 2023/08/10
+# Description: a cli script for exploiting PHP LFI with RCE
+#
+
 def usage():
     print('''args:
 \t-u <url>
+\t-p <param>
 \t-c <command to issue>
 optional:
 \t-f <file to use (default php://temp)>
