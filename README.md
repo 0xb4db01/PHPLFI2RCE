@@ -17,7 +17,7 @@ optional:
 
 ## Examples
 
-If the LFI is on the parameter "file", in a URL such as in http://127.0.0.1/index.php?file=<LFI HERE>, and you want to issue the command "id":
+If the LFI is on the parameter "file", in a URL such as in ```http://127.0.0.1/index.php?file=<LFI HERE>```, and you want to issue the command "id":
 
 
 ```
